@@ -20,6 +20,11 @@ function Navbar() {
             <h1>Tasks</h1>
           </Link>
         </li>
+        <li>
+          <Link href={'/New'}>
+            <h1>New</h1>
+          </Link>
+        </li>
       </ul>
     </div>
   )
