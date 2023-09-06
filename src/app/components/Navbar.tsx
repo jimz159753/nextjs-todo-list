@@ -11,17 +11,17 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href={'/About'}>
+          <Link href={'/about'}>
             <h1>About</h1>
           </Link>
         </li>
         <li>
-          <Link href={'/Tasks'}>
+          <Link href={'/tasks'}>
             <h1>Tasks</h1>
           </Link>
         </li>
         <li>
-          <Link href={'/New'}>
+          <Link href={'/new'}>
             <h1>New</h1>
           </Link>
         </li>
