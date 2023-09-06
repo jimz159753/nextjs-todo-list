@@ -13,6 +13,8 @@ interface ITask {
 
 function Task({ task }: ITask) {
   const router = useRouter()
+
+  const newvar = task
   return (
     <div className='bg-slate-500 flex flex-col justify-center items-center space-y-4 rounded pt-5'>
       <h1>{task.id}- {task.title}</h1>

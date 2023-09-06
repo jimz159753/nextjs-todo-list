@@ -16,7 +16,9 @@ function New({ params }) {
   }
 
   useEffect(() => {
-    getTaskAPI()
+    if (id) {
+      getTaskAPI()
+    }
   }, [])
 
   const onSubmit = async (e) => {
